@@ -13,14 +13,14 @@ So, **FORK THAT**. I automated that BS(kinda of). Mwahahahah.
 ## Installation & Setup
 
 **1. Clone the repository**
-`bash
+```bash
 git clone https://github.com/piratebird/gitbandit.git
 cd gitbandit
-`
+```
 
 **2. Set up your Python Virtual Environment**
 Keep your system packages clean. 
-`bash
+```bash
 python3 -m venv venv
 
 # Activate it (Linux/macOS)
@@ -28,12 +28,12 @@ source venv/bin/activate
 
 # Activate it (Windows)
 # venv\Scripts\activate   
-`
+```
 
 **3. Install Dependencies**
-`bash
+```bash
 pip install -r requirements.txt
-`
+```
 
 **4. Configure your GitHub Token**
 Gitbandit needs a Personal Access Token (PAT) to work its magic.
@@ -42,10 +42,10 @@ Gitbandit needs a Personal Access Token (PAT) to work its magic.
 3. Copy the `.env.example` file and rename it to `.env`.
 4. Paste your token inside:
 
-`env
+```env
 # Inside your .env file
 GITHUB_TOKEN=your_personal_access_token_here
-`
+```
 
 ---
 
@@ -71,4 +71,8 @@ python __main__.py
 - [ ] *Idk, if any other idea comes to mind Imma add it here.*
 
 ---
-*Created by [piratebird](https://github.com/piratebird)*
+
+## License
+
+This project is licensed under the GPL License.
+See the [LICENSE](LICENSE) file for details.
