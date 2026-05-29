@@ -1,0 +1,9 @@
+# python bs
+*/__pycache__/
+*.pyc
+*.pyo
+venv
+
+
+# env variables (super duper secret stuff)
+.env
